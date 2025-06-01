@@ -1,0 +1,362 @@
+@media screen and (width > 767px){
+    section .header-section-toggle{
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;
+    }
+    section .header .navbar .header-menu-btn,
+    section  .header .navbar .navlink .login{
+        display: none;
+      }
+      section  .header .navbar .navlink,
+      section .footer .container .footer-content .content ul{
+        display: block !important;
+      }
+      section .footer .container .footer-content .content h4{
+        pointer-events: none;
+      }
+      section .footer .container .footer-content .content h4::after{
+        display: none;
+      }
+      section .footer .container .footer-content .content h4 img{
+        display: none;
+      }
+
+    
+      section  .ideas .container  .Unlimited-ideas .Product-Tour{
+          display: none;
+      }
+     
+     
+   
+
+      
+  }
+  @media screen and (width > 991px){
+    section .project .container .ideas-project{
+      position: relative;
+    }
+    section .project .container .ideas-project .ideas-project-contain{
+      width: 36%;
+      position: absolute;
+      z-index: 1;
+      background: linear-gradient(150deg, #F1F5F9, transparent);
+      padding-bottom: 16px;
+      
+    }
+  }
+  @media screen and (max-width:1358px){
+    section  .ideas .container .content-box{
+      margin: 0 -16px
+    }
+    section .ideas .container .content-box .content{
+      width: calc(25% - 32px);
+      margin: 0 16px
+    }
+    section .footer .container .footer-content{
+      margin: 0 -12px;
+    }
+    section .footer .container .footer-content .content{
+      width: calc(16.66% - 24px);
+      margin: 0 12px;
+    }
+  }
+  @media screen and (max-width:1110px){
+    section .ideas .container .ideas-content .Watch-Demo img{
+      width: 100%;
+    }
+  }
+@media screen and (max-width:991px){
+  section .project .container .ideas-project .ideas-project-contain{
+   text-align: center;
+  }
+  section .project .container .ideas-project-img{
+    margin-top: 32px;
+    
+   
+     }
+  section .project{
+    background: #F1F5F9;
+    padding-top: 48px;
+    
+      }
+      section .brainstorm .brainstorm-top .brainstorm-rigth-container h4, 
+  section .master h4,
+  section .ideas .container .Unlimited-ideas .Unlimited-ideas-right h4,
+  section .ideas-project-contain h4,
+  section .Brainstorm .ideas-project-contain h4{
+   font-size: 44px;
+   line-height: 48.4px;
+
+  }
+  
+  section .ideas .container .Investor .Artist-content p
+  {
+    font-size: 21px;
+    line-height: 33.6px;
+    margin-bottom: 12px;
+  }
+
+  section .ideas {
+    padding: 64px 0;
+  }
+  section .ideas .container .ideas-content h4{
+    font-size: 56px;
+    line-height: 61.6px;
+  }
+  section  .ideas .container .ideas-content p{
+    font-size: 17px;
+    line-height: 25.4px;
+  }
+  section .ideas .container .content-box{
+    margin: 0 -16px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  section .ideas .container .content-box .content{
+    width: calc(33.33% - 32px);
+    margin: 0 16px 32px 16px;
+  }
+  section .footer .container .footer-content{
+    margin: 0 -12px;
+  }
+  section .footer .container .footer-content .content{
+    width: calc(33.33% - 24px);
+    margin: 0 12px;
+  }
+  section .ideas .container .content-box .content:last-child{
+    margin-bottom: 0;
+  }
+  section .ideas .container .Investor .Artist{
+    width: 100%;
+  }
+  section .footer-bottom .container .footer-content .footer-content-left{
+    width: 100%;
+  }
+  section .footer-bottom .container .footer-content .footer-content-left p{
+    text-align: center;
+  }
+  section .footer-bottom .container .footer-content .footer-content-right{
+    width: 100%;
+    justify-content: space-between;
+  }
+  section .footer-bottom .container .footer-content .footer-content-right .links, 
+  section  .footer-bottom .container .footer-content .footer-content-right .social,
+  section  .footer-bottom .container .footer-content .footer-content-right .App-Download{
+   margin: 16px 0 0 0;
+    
+  }
+  section  .header .navbar .navlink{
+    margin: auto auto auto  8px;
+  }
+  section .header .navbar .navlink ul li{
+    margin-right: 8px;
+  }
+  section .header .navbar .log a.start{
+    margin-left: 8px;
+  }
+  section .grow{
+    padding-bottom: 0;
+  }
+  }
+@media screen and (max-width:767px){
+  section  .header-section{
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    left: 0;
+    background: white;
+    z-index: 1111;
+    transition: 350ms;
+  }
+
+  section .owl-carousel{
+    margin-top: 32px;
+  }
+ 
+  section .ideas {
+    padding: 48px 0;
+  }
+  section .master h4,
+  section .ideas .container .Unlimited-ideas .Unlimited-ideas-right h4,
+  section .ideas-project-contain h4,
+  section .Brainstorm .ideas-project-contain h4,
+  section .brainstorm .brainstorm-top .brainstorm-rigth-container h4
+  {
+   font-size: 32px;
+   line-height: 35.2px;
+   font-weight: 700;
+  }
+  section  .ideas .container .content-box .content h4{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+  }
+  section .master p,
+  section .ideas .container .content-box .content p,
+  section .ideas-project-contain p,
+  section  .ideas .container .Unlimited-ideas .Unlimited-ideas-right p,
+  section  .ideas .container .ideas-content p,
+  section .brainstorm .brainstorm-top .brainstorm-rigth-container p{
+    font-size: 16px;
+    line-height:22.4px;
+    
+  }
+  
+  section .ideas .container .ideas-content h4{
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 700;
+  }
+    section  .header .navbar .navlink{
+        display: none;
+        width: 100%;
+        margin: 0;
+    }
+    
+    section  .header .navbar .navlink ul li{
+        width: 100%;
+        margin: 0;
+        padding: 0 0 0 20;
+    }
+    section  .header .navbar .log{
+      display: none;
+    }
+    section .header .navbar .navlink li a{
+      width: 100%;
+      border-radius: 20px;
+    }
+    section .header .navbar .navlink li:hover a{
+      background: #7C3AED;
+      color: white;
+    }
+    section .ideas .container .content-box .content{
+      width: calc(100% - 0px);
+    }
+    section .ideas .container .content-box .content:last-child{
+      margin-bottom: 0;
+    }
+    section .brainstorm .brainstorm-top .team
+    {
+        width: 100%;
+    }
+    section .brainstorm .brainstorm-bottom .team{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    section .brainstorm .brainstorm-bottom .team:last-child{
+      margin: 0;
+    }
+    section .brainstorm .brainstorm-top .brainstorm-left-container{
+      padding: 0;
+      margin-bottom: 10px;
+    }
+    section .brainstorm .brainstorm-top .brainstorm-rigth-container{
+      text-align: center;
+
+    }
+    section .brainstorm .brainstorm-top .brainstorm-rigth-container{
+      padding: 48px 16px;
+    }
+    section .brainstorm .brainstorm-top .brainstorm-rigth-container span{
+      font-size: 20px;
+      line-height: 20px;
+     
+    }
+   
+    section .brainstorm .brainstorm-top .brainstorm-rigth-container a{
+      display:inline-block;
+      font-size: 24px;
+      line-height: 24px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-align: center;
+      padding: 20px 48px;
+      background:#7C3AED;
+      color: white;
+      border-radius: 50px;
+      text-decoration: none;
+  box-shadow: 0px 25px 50px -12px #00000040;
+  
+     
+    }
+    section .ideas .container .Investor .Artist-content{
+      position: relative;
+      margin: 0 17px;
+      margin-top: -40px;
+      transform: none;
+      padding: 24px 16px 12px 16px;
+
+    }
+  
+    section .ideas .container .Investor .Artist-content p{
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28.8px;
+      margin: 16px 0 24px 0;
+    }
+
+
+    section  .ideas .container .Unlimited-ideas .Unlimited-ideas-left,
+    section  .ideas .container .Unlimited-ideas .Unlimited-ideas-right{
+      width: 100%;
+      text-align: center;
+      padding: 0;
+    }
+    section  .ideas .container .Unlimited-ideas .Unlimited-ideas-right{
+      margin-top: 48px;
+    }
+
+    section  .ideas .container  .Unlimited-ideas .Product-Tour-viwe{
+      display: none;
+  }
+
+ 
+
+    section  .footer-content {
+      padding: 24px 0;
+     }
+    section .footer .container .footer-content{
+      margin: 0 0;
+      }
+    section .footer .container .footer-content .content{
+      width: calc(100% - 0px);
+      margin: 0 0;
+    }
+    section .footer .container .footer-content .active-menu ul{
+      display: block;
+    }
+    section  .footer-bottom .container .footer-content .footer-content-right{
+      justify-content: center;
+    }
+    section .footer-bottom .container .footer-content,
+    section .footer-bottom .container .footer-content .footer-content-right .links, 
+    section  .footer-bottom .container .footer-content .footer-content-right .social{
+      justify-content: center;
+      width: 100%;
+
+    }
+    section .footer .container .footer-content .content h4{
+      position: relative;
+    }
+    section .footer .container .footer-content .content h4::after{
+      position: absolute;
+      content: url(../image/icon/add-sharp.svg);
+      right: 0;
+      top: 50%;
+      transform: translate(0 , -50%);
+    }
+    section .footer .container .footer-content .active-menu h4::after{
+      content: url(../image/icon/remove-sharp.svg);
+    }
+    section .ideas .container .Unlimited-ideas{
+      margin-top: 48px;
+    }
+    section  .footer-bottom .container .footer-content{
+      padding: 24px 0;
+    }
+    section .grow{
+      padding-bottom: 0;
+    }
+    }
